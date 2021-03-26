@@ -62,7 +62,7 @@ export default function Pool() {
           title={TranslateString(262, 'Liquidity')}
           description={TranslateString(1168, 'Add liquidity to receive LP tokens')}
         >
-          <Button id="join-pool-button" as={Link} to="/add/BNB">
+          <Button id="join-pool-button" as={Link} to="/add/HT">
             {TranslateString(168, 'Add Liquidity')}
           </Button>
         </PageHeader>
