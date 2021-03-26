@@ -27,6 +27,13 @@ const StyledBalanceText = styled(Text)`
   max-width: 5rem;
   text-overflow: ellipsis;
 `
+const CoinText = styled(Text)`
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  opacity: 0.6;
+`
 
 const Tag = styled.div`
   background-color: ${({ theme }) => theme.colors.tertiary};
@@ -112,9 +119,10 @@ function CurrencyRow({
       disabled={isSelected}
       selected={otherSelected}
     >
-      <CurrencyLogo currency={currency} size="24px" />
+      <CurrencyLogo currency={currency} size="30px" />
       <Column>
         <Text title={currency.name}>{currency.symbol}</Text>
+        <CoinText title={currency.symbol}>{currency.name}</CoinText>
         <FadedSpan>
           {!isOnSelectedList && customAdded && !(currency instanceof WrappedTokenInfo) ? (
             <Text>

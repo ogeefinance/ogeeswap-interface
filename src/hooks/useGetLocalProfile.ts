@@ -3,8 +3,8 @@ import Cookies from 'js-cookie'
 import { useActiveWeb3React } from 'hooks'
 
 const initialState = {
-  profileLink: 'https://farm.ogee.finance/profile',
-  noProfileLink: 'https://farm.ogee.finance/profile',
+  profileLink: 'https://farm.ogee.finance/',
+  noProfileLink: 'https://farm.ogee.finance/',
 }
 
 /**

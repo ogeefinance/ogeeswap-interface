@@ -29,36 +29,7 @@ const config: MenuEntry[] = [
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://farm.ogee.finance/syrup',
-  },
-  {
-    label: 'Lottery',
-    icon: 'TicketIcon',
-    href: 'https://farm.ogee.finance/lottery',
-  },
-  {
-    label: 'NFT',
-    icon: 'NftIcon',
-    href: 'https://farm.ogee.finance/nft',
-  },
-  {
-    label: 'Teams & Profile',
-    icon: 'GroupsIcon',
-    calloutClass: 'rainbow',
-    items: [
-      {
-        label: 'Leaderboard',
-        href: 'https://farm.ogee.finance/teams',
-      },
-      {
-        label: 'Task Center',
-        href: 'https://farm.ogee.finance/profile/tasks',
-      },
-      {
-        label: 'Your Profile',
-        href: 'https://farm.ogee.finance/profile',
-      },
-    ],
+    href: 'https://farm.ogee.finance/pools',
   },
   {
     label: 'Info',
@@ -83,18 +54,14 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'IFO',
+    label: 'IDO',
     icon: 'IfoIcon',
-    href: 'https://ogee.finance/ifo',
+    href: 'https://ogee.finance/ido',
   },
   {
     label: 'More',
     icon: 'MoreIcon',
     items: [
-      {
-        label: 'Voting',
-        href: 'https://voting.ogee.finance',
-      },
       {
         label: 'Github',
         href: 'https://github.com/ogeefinance',
@@ -102,10 +69,6 @@ const config: MenuEntry[] = [
       {
         label: 'Docs',
         href: 'https://docs.ogee.finance',
-      },
-      {
-        label: 'Blog',
-        href: 'https://ogeeswap.medium.com',
       },
     ],
   },
