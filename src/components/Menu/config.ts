@@ -56,7 +56,7 @@ const config: MenuEntry[] = [
   {
     label: 'IDO',
     icon: 'IfoIcon',
-    href: 'https://ogee.finance/ido',
+    href: 'https://farm.ogee.finance/ido',
   },
   {
     label: 'More',
