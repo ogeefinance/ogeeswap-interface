@@ -289,7 +289,7 @@ const Swap = () => {
             description={TranslateString(1192, 'Trade tokens in an instant')}
           />
           <CardBody>
-            <AutoColumn gap="md">
+            <AutoColumn gap="6px">
               <CurrencyInputPanel
                 label={
                   independentField === Field.OUTPUT && !showWrap && trade
@@ -306,7 +306,7 @@ const Swap = () => {
                 id="swap-currency-input"
               />
               <AutoColumn justify="space-between">
-                <AutoRow justify={isExpertMode ? 'space-between' : 'center'} style={{ padding: '0 1rem' }}>
+                <AutoRow justify={isExpertMode ? 'space-between' : 'center'} style={{ padding: '0.5rem 1rem 0 1rem' }}>
                   <ArrowWrapper clickable>
                     <IconButton
                       variant="tertiary"

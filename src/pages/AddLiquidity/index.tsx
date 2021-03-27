@@ -317,7 +317,7 @@ export default function AddLiquidity({
               {noLiquidity && (
                 <ColumnCenter>
                   <Pane>
-                    <AutoColumn gap="12px">
+                    <AutoColumn gap="6px">
                       <UIKitText>{TranslateString(1158, 'You are the first liquidity provider.')}</UIKitText>
                       <UIKitText>
                         {TranslateString(1160, 'The ratio of tokens you add will set the price of this pool.')}

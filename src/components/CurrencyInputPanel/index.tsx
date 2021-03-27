@@ -16,7 +16,7 @@ const InputRow = styled.div<{ selected: boolean }>`
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  padding: ${({ selected }) => (selected ? '0.75rem 0.5rem 0.75rem 1rem' : '0.75rem 0.75rem 0.75rem 1rem')};
+  padding: ${({ selected }) => (selected ? '0.5rem 0.25rem 0.5rem 0.5rem' : '0.5rem 0.25rem 0.5rem 0.25em')};
 `
 const CurrencySelect = styled.button<{ selected: boolean }>`
   align-items: center;
@@ -44,7 +44,7 @@ const LabelRow = styled.div`
   color: ${({ theme }) => theme.colors.text};
   font-size: 0.75rem;
   line-height: 1rem;
-  padding: 0.75rem 1rem 0 1rem;
+  padding: 0 0.25rem 0 0.25rem;
   span:hover {
     cursor: pointer;
     color: ${({ theme }) => darken(0.2, theme.colors.textSubtle)};
