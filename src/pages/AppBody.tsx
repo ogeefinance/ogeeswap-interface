@@ -4,7 +4,7 @@ import { Card } from '@ogeefinance/uikit'
 
 export const BodyWrapper = styled(Card)`
   position: relative;
-  max-width: 436px;
+  max-width: 480px;
   width: 100%;
   z-index: 5;
 `

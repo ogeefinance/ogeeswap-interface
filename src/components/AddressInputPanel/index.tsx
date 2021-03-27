@@ -100,11 +100,11 @@ export default function AddressInputPanel({
         <InputContainer>
           <AutoColumn gap="md">
             <RowBetween>
-              <Text color="textSubtle" fontWeight={500} fontSize="14px">
+              <Text color="textSubtle" fontWeight={600} fontSize="16px">
                 {TranslateString(1138, 'Recipient')}
               </Text>
               {address && chainId && (
-                <ExternalLink href={getHecoScanLink(chainId, name ?? address, 'address')} style={{ fontSize: '14px' }}>
+                <ExternalLink href={getHecoScanLink(chainId, name ?? address, 'address')} style={{ fontSize: '16px' }}>
                   {TranslateString(116, '(View on HecoScan)')}
                 </ExternalLink>
               )}

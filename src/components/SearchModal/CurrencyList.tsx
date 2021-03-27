@@ -26,6 +26,7 @@ const StyledBalanceText = styled(Text)`
   overflow: hidden;
   max-width: 5rem;
   text-overflow: ellipsis;
+  font-weight: 600;
 `
 const CoinText = styled(Text)`
   white-space: nowrap;
@@ -121,7 +122,7 @@ function CurrencyRow({
     >
       <CurrencyLogo currency={currency} size="32px" />
       <Column>
-        <Text title={currency.name}>{currency.symbol}</Text>
+        <Text fontWeight={600} title={currency.name}>{currency.symbol}</Text>
         <CoinText title={currency.symbol}>{currency.name}</CoinText>
         <FadedSpan>
           {!isOnSelectedList && customAdded && !(currency instanceof WrappedTokenInfo) ? (
