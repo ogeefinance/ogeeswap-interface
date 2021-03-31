@@ -65,15 +65,7 @@
       "decimals": 18,
       "chainId": 128
       },
-    {
-      "name": "Heco-Peg HBCH Token",
-      "address": "0xeF3CEBD77E0C52cb6f60875d9306397B5Caca375",
-      "symbol": "HBCH",
-      "decimals": 18,
-      "chainId": 128
-
-    },
-    {
+       {
       "name": "Heco-Peg HFIL Token",
       "address": "0xae3a768f9aB104c69A7CD6041fE16fFa235d1810",
       "symbol": "HFIL",
