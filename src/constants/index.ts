@@ -7,9 +7,9 @@ type ChainTokenList = {
   readonly [chainId in ChainId]: Token[]
 }
 
-export const DAI = new Token(ChainId.MAINNET, '0x3D760a45D0887DFD89A2F5385a236B29Cb46ED2a', 18, 'DAI', 'Dai Token')
-export const HUSD = new Token(ChainId.MAINNET, '0x0298c2b32eaE4da002a15f36fdf7615BEa3DA047', 18, 'HUSD', 'HUSD Token')
-export const USDT = new Token(ChainId.MAINNET, '0xa71EdC38d189767582C38A3145b5873052c3e47a', 18, 'USDT', 'Tether USD')
+export const DAI = new Token(ChainId.MAINNET, '0x3D760a45D0887DFD89A2F5385a236B29Cb46ED2a', 18, 'DAI', 'Heco-Peg DAIHECO Token ')
+export const HUSD = new Token(ChainId.MAINNET, '0x0298c2b32eaE4da002a15f36fdf7615BEa3DA047', 18, 'HUSD', 'Heco-Peg HUSD Token')
+export const USDT = new Token(ChainId.MAINNET, '0xa71EdC38d189767582C38A3145b5873052c3e47a', 18, 'USDT', 'Heco-Peg USDT Token')
 export const WHT = new Token(
   ChainId.MAINNET,
   '0x5545153CCFcA01fbd7Dd11C0b23ba694D9509A6F',
