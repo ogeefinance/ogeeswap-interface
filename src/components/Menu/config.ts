@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://ogee.exchange/',
+    href: './',
   },
   {
     label: 'Trade',
@@ -24,12 +24,12 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://farm.ogee.finance/farms',
+    href: 'https://farm.ogeeswap.com/farms',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://farm.ogee.finance/pools',
+    href: 'https://farm.ogeeswap.com/pools',
   },
   {
     label: 'Info',
@@ -37,26 +37,26 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Overview',
-        href: 'https://info.ogee.exchange',
+        href: 'https://info.ogeeswap.com',
       },
       {
         label: 'Tokens',
-        href: 'https://info.ogee.exchange/tokens',
+        href: 'https://info.ogeeswap.com/tokens',
       },
       {
         label: 'Pairs',
-        href: 'https://info.ogee.exchange/pairs',
+        href: 'https://info.ogeeswap.com/pairs',
       },
       {
         label: 'Accounts',
-        href: 'https://info.ogee.exchange/accounts',
+        href: 'https://info.ogeeswap.com/accounts',
       },
     ],
   },
   {
     label: 'IDO',
     icon: 'IfoIcon',
-    href: 'https://farm.ogee.finance/ido',
+    href: 'https://farm.ogeeswap.com/ido',
   },
   {
     label: 'More',
@@ -68,7 +68,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Docs',
-        href: 'https://docs.ogee.finance',
+        href: 'https://docs.ogeeswap.com',
       },
     ],
   },

@@ -8,7 +8,7 @@
     "@ethersproject/experimental": "^5.0.1",
     "@ogeefinance/heco-connector": "1.0.2",
     "@ogeefinance/ogeeswap-sdk": "2.1.1",
-    "@ogeefinance/uikit": "^0.2.2",
+    "@ogeefinance/uikit": "^0.2.3",
     "@popperjs/core": "^2.4.4",
     "@reach/dialog": "^0.10.3",
     "@reach/portal": "^0.10.3",
