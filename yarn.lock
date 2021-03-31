@@ -2605,10 +2605,10 @@
     tiny-warning "^1.0.3"
     toformat "^2.0.0"
 
-"@ogeefinance/uikit@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@ogeefinance/uikit/-/uikit-0.2.1.tgz#110b81d8ea47c555bcf81e6c3dd41df117aa6fe7"
-  integrity sha512-RvBfgGXFHYMg9hQzyV3JJ8Y+EswpcOCzEH/6juVq7RTE+EC5kTQaKc9f7DsZY6BgaC7VNr7PTwCdMX1wgilVmQ==
+"@ogeefinance/uikit@^0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@ogeefinance/uikit/-/uikit-0.2.2.tgz#6680a69546754c6e6b502d15d925f06214ceb744"
+  integrity sha512-WRsFQD3KsgAehFFVT2iGDZf4XLwIYgW4w4fUrUVMoRQgHHrnj076wlkq27nHyyLccD/bR8wL98CKotovPNMarQ==
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"

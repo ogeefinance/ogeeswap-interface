@@ -38,7 +38,7 @@ export const ErrorText = styled(Text)<{ severity?: 0 | 1 | 2 | 3 | 4 }>`
     severity === 3 || severity === 4
       ? theme.colors.failure
       : severity === 2
-      ? theme.colors.binance
+      ? theme.colors.huobi
       : severity === 1
       ? theme.colors.text
       : theme.colors.success};

@@ -29,14 +29,14 @@ export const MenuItem = styled(RowBetween)`
 export const SearchInput = styled.input`
   position: relative;
   display: flex;
-  padding: 16px;
+  padding: 12px;
   align-items: center;
   width: 100%;
   white-space: nowrap;
   background: none;
   border: none;
   outline: none;
-  border-radius: 20px;
+  border-radius: 16px;
   color: ${({ theme }) => theme.colors.text};
   border-style: solid;
   border: 1px solid ${({ theme }) => theme.colors.tertiary};
