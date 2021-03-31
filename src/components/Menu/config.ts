@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://farm.ogee.finance/',
+    href: 'https://ogee.exchange/',
   },
   {
     label: 'Trade',
