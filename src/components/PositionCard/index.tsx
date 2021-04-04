@@ -66,7 +66,7 @@ export function MinimalPositionCard({ pair, showUnwrapped = false }: PositionCar
             <AutoColumn gap="12px">
               <FixedHeightRow>
                 <RowFixed>
-                  <Text style={{ textTransform: 'uppercase', fontWeight: 600 }} fontSize="14px" color="textSubtle">
+                  <Text style={{ textTransform: 'uppercase', fontWeight: 600 }} fontSize="16px" color="textSubtle">
                     LP Tokens in your Wallet
                   </Text>
                 </RowFixed>
@@ -74,20 +74,20 @@ export function MinimalPositionCard({ pair, showUnwrapped = false }: PositionCar
               <FixedHeightRow onClick={() => setShowMore(!showMore)}>
                 <RowFixed>
                   <DoubleCurrencyLogo currency0={currency0} currency1={currency1} margin size={20} />
-                  <Text fontSize="14px">
+                  <Text fontSize="16px">
                     {currency0.symbol}/{currency1.symbol}
                   </Text>
                 </RowFixed>
                 <RowFixed>
-                  <Text fontSize="14px">{userPoolBalance ? userPoolBalance.toSignificant(4) : '-'}</Text>
+                  <Text fontSize="16px">{userPoolBalance ? userPoolBalance.toSignificant(4) : '-'}</Text>
                 </RowFixed>
               </FixedHeightRow>
               <AutoColumn gap="4px">
                 <FixedHeightRow>
-                  <Text fontSize="14px">{currency0.symbol}:</Text>
+                  <Text fontSize="16px">{currency0.symbol}:</Text>
                   {token0Deposited ? (
                     <RowFixed>
-                      <Text ml="6px" fontSize="14px">
+                      <Text ml="6px" fontSize="16px">
                         {token0Deposited?.toSignificant(6)}
                       </Text>
                     </RowFixed>
@@ -96,10 +96,10 @@ export function MinimalPositionCard({ pair, showUnwrapped = false }: PositionCar
                   )}
                 </FixedHeightRow>
                 <FixedHeightRow>
-                  <Text fontSize="14px">{currency1.symbol}:</Text>
+                  <Text fontSize="16px">{currency1.symbol}:</Text>
                   {token1Deposited ? (
                     <RowFixed>
-                      <Text ml="6px" fontSize="14px">
+                      <Text ml="6px" fontSize="16px">
                         {token1Deposited?.toSignificant(6)}
                       </Text>
                     </RowFixed>
