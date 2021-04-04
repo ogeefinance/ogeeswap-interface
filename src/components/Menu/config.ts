@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: './',
+    href: '/',
   },
   {
     label: 'Trade',
@@ -24,12 +24,12 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://farm.ogeeswap.com/farms',
+    href: 'https://farm.ogeeswap.com',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://farm.ogeeswap.com/pools',
+    href: 'https://farm.ogeeswap.com',
   },
   {
     label: 'Info',
@@ -41,22 +41,22 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Tokens',
-        href: 'https://info.ogeeswap.com/tokens',
+        href: 'https://info.ogeeswap.com',
       },
       {
         label: 'Pairs',
-        href: 'https://info.ogeeswap.com/pairs',
+        href: 'https://info.ogeeswap.com',
       },
       {
         label: 'Accounts',
-        href: 'https://info.ogeeswap.com/accounts',
+        href: 'https://info.ogeeswap.com',
       },
     ],
   },
   {
     label: 'IDO',
     icon: 'IfoIcon',
-    href: 'https://farm.ogeeswap.com/ido',
+    href: 'https://farm.ogeeswap.com/',
   },
   {
     label: 'More',
