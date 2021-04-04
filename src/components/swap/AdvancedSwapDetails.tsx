@@ -92,7 +92,8 @@ export function AdvancedSwapDetails({ trade }: AdvancedSwapDetailsProps) {
           {showRoute && (
             <>
               <SectionBreak />
-              <AutoColumn style={{ padding: '0 24px' }}>
+              <Card>
+              <AutoColumn style={{ padding: '12px 24px' }}>
                 <RowFixed>
                   <Text fontSize="16px">Route</Text>
                   <QuestionHelper
@@ -104,6 +105,7 @@ export function AdvancedSwapDetails({ trade }: AdvancedSwapDetailsProps) {
                 </RowFixed>
                 <SwapRoute trade={trade} />
               </AutoColumn>
+              </Card>
             </>
           )}
         </>
