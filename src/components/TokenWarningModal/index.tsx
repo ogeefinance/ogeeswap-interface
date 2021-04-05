@@ -24,8 +24,8 @@ const WarningContainer = styled.div`
   max-width: 420px;
   width: 100%;
   padding: 1rem;
-  background: rgba(242, 150, 2, 0.05);
-  border: 1px solid #f3841e;
+  background: rgba(24, 26, 34, 0.05);
+  border: 2px solid #f15050;
   border-radius: 20px;
   overflow: auto;
 `
@@ -76,7 +76,7 @@ function TokenWarningCard({ token }: TokenWarningCardProps) {
           {chainId && (
             <ExternalLink style={{ fontWeight: 400 }} href={getHecoScanLink(chainId, token.address, 'token')}>
               <Text title={token.address}>
-                {shortenAddress(token.address)} {TranslateString(116, '(View on HecoScan)')}
+                {shortenAddress(token.address)} {TranslateString(116, '(View on HecoInfo)')}
               </Text>
             </ExternalLink>
           )}
@@ -111,13 +111,13 @@ export default function TokenWarningModal({
           <Text>
             {TranslateString(
               1130,
-              'Anyone can create a BEP20 token on HECO with any name, including creating fake versions of existing tokens and tokens that claim to represent projects that do not have a token.'
+              'Anyone can create a HRC20 token on HECO with any name, including creating fake versions of existing tokens and tokens that claim to represent projects that do not have a token.'
             )}
           </Text>
           <Text>
             {TranslateString(
               1132,
-              'This interface can load arbitrary tokens by token addresses. Please take extra caution and do your research when interacting with arbitrary BEP20 tokens.'
+              'This interface can load arbitrary tokens by token addresses. Please take extra caution and do your research when interacting with arbitrary HRC20 tokens.'
             )}
           </Text>
           <Text>{TranslateString(1134, 'If you purchase an arbitrary token, you may be unable to sell it back.')}</Text>
