@@ -13,23 +13,23 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: '/swap',
+        href: '/#/swap',
       },
       {
         label: 'Liquidity',
-        href: '/pool',
+        href: '/#/pool',
       },
     ],
   },
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://farm.ogeeswap.com',
+    href: 'https://ogeeswap.com/#/farms',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://farm.ogeeswap.com',
+    href: 'https://ogeeswap.com/#/pools',
   },
   {
     label: 'Info',
@@ -37,26 +37,26 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Overview',
-        href: 'https://info.ogeeswap.com',
+        href: 'https://info.ogee.exchange',
       },
       {
         label: 'Tokens',
-        href: 'https://info.ogeeswap.com',
+        href: 'https://info.ogee.exchange',
       },
       {
         label: 'Pairs',
-        href: 'https://info.ogeeswap.com',
+        href: 'https://info.ogee.exchange',
       },
       {
         label: 'Accounts',
-        href: 'https://info.ogeeswap.com',
+        href: 'https://info.ogee.exchange',
       },
     ],
   },
   {
     label: 'IDO',
     icon: 'IfoIcon',
-    href: 'https://farm.ogeeswap.com/',
+    href: 'https://ogeeswap.com/#/ido',
   },
   {
     label: 'More',
