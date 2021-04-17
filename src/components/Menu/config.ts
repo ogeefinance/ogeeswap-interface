@@ -13,11 +13,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: '/#/swap',
+        href: '/swap',
       },
       {
         label: 'Liquidity',
-        href: '/#/pool',
+        href: '/pool',
       },
     ],
   },
@@ -41,15 +41,15 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Tokens',
-        href: 'https://info.ogee.exchange',
+        href: 'https://info.ogee.exchange/#/tokens',
       },
       {
         label: 'Pairs',
-        href: 'https://info.ogee.exchange',
+        href: 'https://info.ogee.exchange/#/pairs',
       },
       {
         label: 'Accounts',
-        href: 'https://info.ogee.exchange',
+        href: 'https://info.ogee.exchange/#/accounts',
       },
     ],
   },
